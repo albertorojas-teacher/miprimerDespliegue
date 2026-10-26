@@ -184,3 +184,19 @@ a:hover {
     padding-block: 4rem;
   }
 }
+
+.tarjeta-alumno {
+  background: var(--color-blanco);
+  padding: 20px;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  text-align: center;
+}
+
+.alumno-nombre {
+  color: var(--color-primario);
+}
+
+.alumno-curso {
+  color: var(--color-texto-suave);
+}
