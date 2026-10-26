@@ -166,7 +166,7 @@ a:hover {
   color: #93c5fd;
 }
 
-.footer p + p {
+.footer p+p {
   margin-top: 0.4rem;
 }
 
@@ -183,4 +183,35 @@ a:hover {
   .hero {
     padding-block: 4rem;
   }
+}
+
+/* Tarjeta de Valeria Feria */
+.tarjeta-alumno-valeria {
+  background: #ffffff;
+  border: 1px solid #e0d5ca;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin: 24px auto;
+  max-width: 320px;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-alumno-valeria:hover {
+  transform: translateY(-4px);
+}
+
+.alumno-nombre-valeria {
+  color: #654832;
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+
+.alumno-curso-valeria {
+  color: #666666;
+  font-size: 16px;
+  margin: 0;
 }
